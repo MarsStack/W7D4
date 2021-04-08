@@ -18,12 +18,11 @@ button {
 	color: white;
 	font-weight: 700;
 	padding: 5px;
-	border-radius: 10%;
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	border-radius: 5%;
+	transition: 0.3s;
+	font-family: $sans-serif;
+	font-size: 15px;
+	text-align: center;
 }
 
 button:hover {
