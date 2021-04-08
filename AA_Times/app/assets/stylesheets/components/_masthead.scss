@@ -42,10 +42,14 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	
+	ul{
+		display: flex;
+	}
 
 	li {
 		margin-left: 10px;
-		
+		padding: 5px;
+		border-right: 1px solid red;
 	}
 
 	button {
@@ -73,4 +77,7 @@
 	strong {
 		color: green;
 	}
+}
+#last-link{
+	border-right: 0px;
 }
