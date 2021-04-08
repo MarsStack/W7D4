@@ -1,9 +1,15 @@
 .main-nav {
-
+ display: flex;
+ justify-content: space-between; 
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-bottom: 1px solid lightblue;
+ 
 }
 
 .left-nav > ul,
 .right-nav > ul {
+  display: flex;
 
 }
 
@@ -11,12 +17,15 @@
 
   > ul {
     > li {
-
+      font-family: $sans-serif ;
+      font-size: 15px;
+      text-transform: uppercase;
     }
   }
 
   span {
-
+    margin-right: 10px;
+    padding: 10px;
   }
 }
 
@@ -25,20 +34,23 @@
   > ul {
 
     > li {
-  
+      font-family: $sans-serif ;
+      font-size: 15px;
+      text-transform: uppercase;
+      margin-right: 4px;
     }
 
     > li:last-of-type {
-  
+      margin-right: 10px;
     }
   }
   
   i {
-
+    font-size: 15px;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+ background-color: $lightest-gray;
 }
